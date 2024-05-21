@@ -78,10 +78,12 @@ function App() {
         </div>
       </section>
       <br />
+      <h1 style={{fontSize: "41px", marginLeft: "600px", fontFamily: "Urbanist"}}>Instrumento Musicais</h1>
+        <p style={{fontSize: "15px", marginLeft: "632px", fontFamily: "Urbanist"}}>Confira alguns dos instrumentos que ensinamos!</p>
       <section className="instrumentos">
         < CardGroup >
-          <Card>
-            <Card.Img variant="top" src={somlogo} />
+          <Card style={{width: "271px", height: "348px", backgroundColor: "#FEFAEB", borderRadius: "20px"}}>
+            <Card.Img variant="top" src={somlogo} style={{marginLeft: "190px"}} />
             <Card.Body>
               <Card.Title>Guitarra</Card.Title>
               <Card.Text>
@@ -95,8 +97,8 @@ function App() {
             <Card.Footer>
             </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src={violaologo} />
+          <Card style={{width: "271px", height: "348px", backgroundColor: "#FEFAEB", borderRadius: "20px"}}>
+            <Card.Img variant="top" src={violaologo} style={{marginLeft: "170px"}} />
             <Card.Body>
               <Card.Title>Violão</Card.Title>
               <Card.Text>
@@ -110,8 +112,8 @@ function App() {
             <Card.Footer>
             </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src={tecladologo} />
+          <Card style={{width: "271px", height: "348px", backgroundColor: "#FEFAEB", borderRadius: "20px"}}>
+            <Card.Img variant="top" src={tecladologo} style={{marginLeft: "170px"}} />
             <Card.Body>
               <Card.Title>Piano</Card.Title>
               <Card.Text>
