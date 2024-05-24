@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom"
 import './header.css';
+import Logo from "../img/Logo.png"
 
 
 export default function Cabecalho(){
     return(
         <header className="header">
           <div className="logo">
-            Doracorde
+            <img src={Logo} alt="Logo Doracorde"/> 
           </div>
           <nav className="navigation">
             <a href="/home">Home</a>

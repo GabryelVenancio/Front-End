@@ -20,7 +20,7 @@ function App() {
      <br/>
       <h1 style={{fontSize: "41px", marginLeft: "600px", fontFamily: "Urbanist"}}>Instrumentos Musicais</h1>
         <p style={{fontSize: "15px", marginLeft: "632px", fontFamily: "Urbanist"}}>Confira alguns dos instrumentos que ensinamos!</p>
-     < Instrumentos/> 
+     < Instrumentos/>
     </>
   );
 }
